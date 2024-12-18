@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>James Carl Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#language">Language</a></li>
+                <li><a href="#favbook">Fav Book/Manga</a></li>
+                <li><a href="#contact">Contact</a></li>              
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>IT/Geek</p>
+            <h1>Hi, I'm <span>James Carl</span><br>Baliong from Bohol</h1>
+        </div>
+        </div>
+    </div>
+                        <!----------  About --------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/profile.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>(fun fact)<br>Did you know that octopuses are incredibly intelligent and have three hearts? Two hearts pump blood to the gills, and one pumps it to the rest of the body. When an octopus swims, the heart pumping to the body actually stops, which is why they prefer crawling to conserve energy.
+                        On top of that, they’re escape artists! Octopuses can squeeze through tiny openings because they have no bones, just a soft body and a beak. There are even stories of them breaking out of aquariums, crawling across the floor, and sneaking into other tanks to steal food. </p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Fav Food</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Fav Band</p>
+                            <p class="tab-links" onclick="opentab('Education')">Fav YTber</p>
+                        </div>
+                        <!----------  Skill --------->
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Breakfast</span><br>Itsilog</li>
+                                <li><span>Main course </span><br>Sisig</li>
+                                <li><span>Dessert</span><br>Letche flan</li>
+                            </ul>
+                        </div>
+                        <!----------  Experience --------->
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>RadioHead</span><br>Creep</li>
+                                <li><span>My Chemical Romance</span><br>Cancer</li>
+                                <li><span>Dayglow</span><br>Can i call you tonight?</li>
+                            </ul>
+                        </div>
+                        <!----------  Education --------->
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Podcast</span><br>TrashTaste</li>
+                                <li><span>SoloYTber</span><br>Peddiepie</li>
+                                <li><span>Vtuber</span><br>Gawr Gura</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------  Coding Language --------->
+    <div id="language">
+        <div class="container">
+            <h1 class="sub-title"> Learned Coding Language</h1>
+            <div class="language-list">
+                <div>
+                    <h2>Java</h2>
+                    <p>(fun fact)<br>Cows are very social animals, and studies have shown that they form strong bonds with specific individuals in their herd. When separated from their best friends, they can get stressed, and their heart rates even increase.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>HTML + CSS</h2>
+                    <p>(fun fact)<br>Elephants have specialized receptors in their feet that allow them to detect vibrations through the ground. This helps them sense distant movements, like other elephants walking or even thunderstorms many miles away.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>JavaScript</h2>
+                    <p>(fun fact)<br>Axolotls, often called “Mexican walking fish,” are remarkable creatures because they can regenerate not just limbs, but also parts of their heart, spine, and even brain! Scientists are fascinated by their healing ability and are studying it for potential medical breakthroughs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------  Favorite Book/Manga --------->
+        <div id="favbook">
+            <div class="fcontainer">
+                <h1 class="sub-title"> Favorite Book/Manga</h1>
+                <div class="fav-list">
+                    <div class="fav">
+                        <img src="Image/cover2.jpg">
+                        <div class="layer">
+                            <h3>Slam Dunk</h3>
+                            <p>The story follows Hanamichi Sakuragi, who becomes a basketball player from the Shohoku High School basketball team in order to make Haruko Akagi, a girl he likes, fall in love with him.</p>    
+                        </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/cover1.jpg">
+                        <div class="layer">
+                        <h3>Mushoko Tensei</h3>
+                            <p>The series is about a jobless overweight man who dies after having a withdrawn life and reincarnates in a fantasy world while keeping his memories of his previous life, determined to enjoy his new life without regrets under the name Rudeus Greyrat.</p>                       
+                        </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/cover3.jpg">
+                        <div class="layer">                       
+                        <h3>Mushoko Tensei</h3>
+                            <p>follows the story of Kou Yamori, a lonely middle schooler who, while wandering the streets at night, encounters a mysterious vampire named Nazuna, sparking a relationship where he gradually becomes more involved with the vampire world, often exploring the city at night with her and contemplating the idea of becoming a vampire himself.</p>        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <!----------  Contact --------->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-center">
+                <h1 class="sub-title">Contact</h1>
+                <div class="typeofcontact">
+                    <div>
+                        <h2><i class="fa-regular fa-envelope"></i><br>Email</h2>
+                        <p>Sample@gmail.com</p>
+                        
+                    </div>
+                    <div>
+                        <h2><i class="fa-solid fa-phone"></i><br>Phone Number</h2>
+                        <p>09123456789</p>
+                        
+                    </div>
+                    <div>
+                        
+                        <h2><i class="fa-brands fa-facebook"></i><br>FaceBook</h2>
+                        <p>SampleFaceBookname</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>&copy; 2024 James Carl Baliong. All rights reserved.</p>
+    </footer>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link"); // Corrected typo here
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab"); // Corrected typo here AND variable name
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemeno = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeno.style.right = "0";
+        }
+        function closemenu(){
+            sidemeno.style.right = "-500px";
+        }
+    </script>
+</body>
+</html>
